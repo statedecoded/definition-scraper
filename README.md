@@ -77,3 +77,7 @@ This requires that each defined term be contained within quotation marks. While 
 ## Inconsistent text formatting
 
 As can be seen in the above example, definitions do not always appears in a dictionary-style layout. Sometimes terms appear in the midst of a sentence, leading to grammatically awkward definitions (e.g. "‘Appropriate Legal Notices’ to the extent that it includes a convenient and prominently visible feature...”) that might be understandable, but are still non-ideal.
+
+## Too-broad definitions
+
+As can also be seen the above example, the terms "modified version" and "based on" are defined, with definitions that are duplicates of "modified." This is intentional, because all three terms appear within the same definition, so the parser cannot tell where one definition ends and the next one begins. More awkwardly, the term "based on" is never actually defined, despite being in quotes. (One might argue that this is a bug in the text of the GPL.)
