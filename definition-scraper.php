@@ -41,6 +41,7 @@ class DefinitionScraper
 									' has the same meaning as ',
 									' shall be construed ',
 									' shall also be construed to mean ',
+									' refers to ',
 								);
 		
 		/* Measure whether there are more straight quotes or directional quotes in this passage
