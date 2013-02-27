@@ -10,7 +10,7 @@ When no definitions can be found, it returns false.
 
 Definitions must be contained within quotation marks, either straight (aka "double primes," Unicode U+2033) or directional (aka "smart quotes.")
 
-To link terms and their definitions, it looks for any of the following terms between the two:
+To link terms and their definitions, it looks for any of the following phrases between the two:
 
 * mean
 * means
@@ -20,7 +20,7 @@ To link terms and their definitions, it looks for any of the following terms bet
 * shall be construed
 * shall also be construed to mean
 
-Additional terms can be added to the `$scope_indicators` array
+Additional linking phrases can be added to the `$linking_phrases` array, found at the beginning of the method.
 
 
 # Example
