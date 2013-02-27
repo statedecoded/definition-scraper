@@ -2,6 +2,8 @@
 
 Extracts defined terms from strings of text. Contracts, laws, terms of service, etc. all contain terms that are essential to understanding the text. This locates those defined terms and extracts those terms and their definitions.
 
+Created with the support of the John S. and James L. Knight Foundation, as a component of [The State Decoded](http://www.statedecoded.com/).
+
 
 # Instructions
 Take the text and break it up into paragraphs, storing the text as an object, with each paragraph as a numbered property. Create a new instance of `DefinitionScraper` (`$parser = new DefinitionScraper()`), store the text object as the `text` property, and then invoke the method `parse()`. That will create a member object property, `definitions`, that contains a list of terms and definitions, with each term serving as the property’s key.
