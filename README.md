@@ -74,7 +74,7 @@ This returns the following as `$parser->definitions`:
 
 
 ## Quotation marks requirement
-This requires that each defined term be contained within quotation marks. While this is a very common practice, it is not universal. It would be straightforward to modify Definition Scraper to support the extraction of terms that are contained within something other than quotation marks (e.g., `<em></em>` tags), but extracting terms that are in no way demarcated would be somebody more difficult.
+This requires that each defined term be contained within quotation marks. While this is a very common practice, it is not universal. It would be straightforward to modify Definition Scraper to support the extraction of terms that are contained within something other than quotation marks (e.g., `<em></em>` tags), but extracting terms that are in no way demarcated would be somewhat more difficult.
 
 
 ## Inconsistent text formatting
